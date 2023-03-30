@@ -2,8 +2,6 @@ const { program } = require("commander");
 
 console.log("Hello World of backend");
 const contacts = require("./contacts");
-test = contacts.listContacts();
-console.log(test);
 
 const invokeActions = async ({ action, id, name, email, phone }) => {
   switch (action) {
